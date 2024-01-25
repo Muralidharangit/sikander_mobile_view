@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Murecho:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+.container-sm {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+a.text-yellow {
+  color: #f2ff00;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+h2.form-head {
+  color: #f2ff00;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: inherit;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+
+/* ---------------------------------
+backgound section
+-------------------------------- */
+.bg-img {
+  background: url(../images/Login/Intro-page-bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-mainimg {
+  background: url(../images/Login/Main_Page_bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  gap: 56px;
+  padding: 0px 20px 5px;
+  justify-content: space-between;
+}
+
+.register-bg {
+  background: url(../images/Login/Register\ Page-bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 25px; */
+  padding: 0 20px;
+  /* padding-top: 25px; */
+  justify-content: right;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  justify-content: space-around;
+}
+
+.register-otpbg {
+  background: url(../images/Login/Register\ -\ Enter\ OTP-page-bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  padding: 0 20px;
+  justify-content: space-around;
+}
+
+.createregister-bg {
+  background: url(../images/Login/Register\ -\ Create\ Username-page-bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  justify-content: space-around;
+}
+
+/* ---------------------------------
+backgound section end
+-------------------------------- */
+
+/* ---------------------------------
+buttons
+-------------------------------- */
+
+.btn-yellow {
+  background: #f2ff00;
+  color: #a036e8 !important;
+  font-weight: 900;
+  border-radius: 40px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0px 5px 4px 0px #00000080;
+  font-style: italic;
+  border: none;
+  font-family: "inter";
+  width: 193px;
+  height: 54px;
+}
+
+/* ---------------------------------
+button end
+-------------------------------- */
+
+/* ---------------------------------
+input
+-------------------------------- */
+.input-value div input {
+  border-radius: 10px;
+  background: #fff;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+
+  font-family: Inter;
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+/* ---------------------------------
+inout end
+-------------------------------- */
+
+
+/* ---------------------------------
+added class
+-------------------------------- */
+
+a.fs-20:before {
+  content: "||";
+  width: 10px;
+  height: 14px;
+  padding: 0 8px;
+}
+
+a.fs-20:after {
+  content: "||";
+  width: 10px;
+  height: 14px;
+  padding: 0 8px;
+}
+
+.input-value div input.input {
+  height: 42px;
+  margin-bottom: 25px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.w-70 {
+  width: 70%;
+}
+.w-65 {
+  width: 65%;
+}
+.prl-10 {
+  padding: 0 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+.br-b {
+  border-bottom: 1px solid #ccc;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+.w-85 {
+  width: 85%;
+}
+.g-8 {
+  gap: 8px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.footer.d-flex.justify-content-end.flex-column.align-items-center.position-relative {
+  gap: 10px;
+}
+
+.b-40 {
+  bottom: 40px;
+}
+.b-50 {
+  bottom: 50px;
+}
+.view-icon {
+  top: 10px;
+  right: 10px;
+}
+
+
+/* ---------------------------------
+ added classs end
+-------------------------------- */
