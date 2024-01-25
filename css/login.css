@@ -10,10 +10,12 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  background:black;
 }
 .container-sm {
   max-width: 540px;
   margin: 0 auto;
+  padding:0;
 }
 
 a.text-yellow {
